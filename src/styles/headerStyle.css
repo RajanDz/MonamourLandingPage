@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+.header-content p {
+    color: white;
+    color: rgb(207, 207, 207);
+}
+.header-content p:hover{
+    color: white;
+    cursor: pointer;
+}
+.header-content h3{
+    color: white;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.header-options{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+    }
+}

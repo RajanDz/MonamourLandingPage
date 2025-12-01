@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+
+.about-us-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+.about-us-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 100px;
+    padding: 48px;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+}
+.about-us-sec-header{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.about-us-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.about-us-info{
+    color: #c3c3c3;
+     text-align:start;
+      word-wrap: break-word;
+      white-space: normal;
+       width: 550px;
+}
+.client-info{
+    display: flex;
+    gap: 50px;
+}
+
+.years-of-work, .satisfied-customers{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.right-side{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.img-wrap{
+    position: relative;
+    overflow: hidden;
+}
+.about-us-img {
+    height: 500px;
+    transition: transform 0.5s cubic-bezier(0.2, 0.6, 0.3, 1);
+    cursor: pointer;
+}
+.about-us-img.bottom-picture{
+    margin-top: 120px;
+}
+.img-wrap:hover .about-us-img {
+    transform: scale(1.1); 
+}
+
+
+@media (max-width: 768px) {
+    .about-us-section{
+        height: auto;
+    }
+        .about-us-content{
+            flex-direction: column;
+        }
+        .left-side {
+            align-items: center;
+            justify-content: center;
+        }
+        .about-us-text{
+            align-items: center;
+            justify-content: center;
+            width: 250px;
+            overflow: hidden;
+        }
+        .about-us-info{
+            width: 250px;
+        }
+
+        .right-side{
+            flex-direction: column;
+        }
+        .about-us-img {
+            width: 333px;
+        }
+        .about-us-img.bottom-picture{
+                margin-top: 0px;
+        }      
+}

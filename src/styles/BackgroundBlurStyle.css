@@ -1,0 +1,45 @@
+.background-blur-wrapper {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: -10;
+}
+
+/* Zajednički stilovi oba kruga */
+.blur-circle {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.15;
+  animation: glow 5s ease-in-out infinite;
+}
+
+/* Roze krug */
+.blur-circle.pink {
+  background: #ec4899; /* pink */
+  top: -120px;
+  left: -120px;
+}
+
+/* Ljubičasti krug */
+.blur-circle.purple {
+  background: #a855f7; /* purple */
+  bottom: -120px;
+  right: -120px;
+  animation-delay: 1s;
+}
+
+/* Animacija paljenja/gasenja */
+@keyframes glow {
+  0%, 100% {
+    opacity: 0.1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.25;
+    transform: scale(1.15);
+  }
+}
