@@ -58,6 +58,7 @@
     .header-title{
         font-size: 40px;
         letter-spacing: 0px;
+        width: max-content;
     }
     .reasons{
         flex-direction: column;
