@@ -7,7 +7,7 @@ export function WhyMonamourComponent() {
         <>
             <BackgroundBlur />
 
-            <div className="why-to-choose-us-section">
+            <div className="why-to-choose-us-section" data-section>
                 <div className="why-to-choose-us-header">
                     <p className="header-title" >ZAŠTO MONAMOUR</p>
                     <p style={{color: "white", fontSize: "25px"}}>Vaše iskustvo je naš prioritet</p>

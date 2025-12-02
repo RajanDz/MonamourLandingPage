@@ -2,12 +2,10 @@ import "../styles/CollectionSectionStyle.css"
 import { collectionData } from "../data/collectionData"
 import { instagramPosts } from "../data/collectionData"
 import { Instagram } from "lucide-react"
-import { useNavigate } from "react-router"
 export function OurCollectionComponent(){
 
-    const navigate = useNavigate();
     return (
-        <div id="collection" className="our-collection-section">
+        <div id="collection" className="our-collection-section" data-section>
                 <div className="collection-content">
                     <div className="collection-sec-header"> 
                             <p style={{color:"oklch(0.64 0.24 354.76)", width: "max-content", letterSpacing: "4px"}}>INSTAGRAM</p>

@@ -8,18 +8,37 @@ import { OurCollectionComponent } from './components/ourCollection';
 import { WhyMonamourComponent } from './components/whyToChooseUs';
 import { LocationComponent } from './components/location';
 import { FooterComponent } from './components/footer';
+import { useEffect } from 'react';
 function App() {
+  
+
+    useEffect(() => {
+  const sections = document.querySelectorAll("[data-section]");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        console.log("VIDLJIVO:", entry.target.classList);
+        entry.target.classList.add("show")
+      }
+    });
+  }, { threshold: 0.1 });
+
+  sections.forEach(section => observer.observe(section));
+
+  return () => observer.disconnect();
+}, []); 
+
   return (
-      <BrowserRouter>
-        <HeaderComponent/>
+    <div>
+      <HeaderComponent/>
         <VideoComponent/>
         <AboutUsComponent/>
         <OurCollectionComponent/>
         <WhyMonamourComponent/>
         <LocationComponent/>
         <FooterComponent/>
-      </BrowserRouter>
-      
+    </div>      
   );
 }
 

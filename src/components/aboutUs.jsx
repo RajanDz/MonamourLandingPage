@@ -4,7 +4,7 @@ import aboutUsTwo from "../assets/image/about-us-two.avif";
 
 export function AboutUsComponent(){
     return(
-        <div id="about-us" className="about-us-section">
+        <div id="about-us" className="about-us-section" data-section>
             <div className="about-us-content">
                 <div className="left-side"> 
                     <div className="about-us-sec-header">

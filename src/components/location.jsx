@@ -2,7 +2,7 @@ import "../styles/LocationSectionStyle.css";
 
 export function LocationComponent(){
     return (
-        <div id="location" className="location-section">
+        <div id="location" className="location-section" data-section>
             <div className="loc-section-header">
                     <p style={{color: "oklch(.656 .241 354.308)", fontSize: "24px", letterSpacing: "3px"}}>LOKACIJA</p>
                     <p style={{color: "white", fontSize: "20px"}}>POSJETITE NAS</p>
