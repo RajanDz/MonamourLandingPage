@@ -11,11 +11,19 @@
     align-items: center;
     justify-content: space-between;
 }
-
+.brand-title{
+    color:oklch(.656 .241 354.308);
+    letter-spacing: 5px;
+    font-size: 60px;
+    font-weight: 400;
+}
 @media (max-width: 768px) {
     
     .footer-section{
         height: auto;
         padding: 48px;
+    }
+    .brand-title{
+        font-size: 50px;
     }
 }
