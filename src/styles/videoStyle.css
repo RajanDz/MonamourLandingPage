@@ -44,10 +44,10 @@
 }
 .video-wrapper-content button{
     all: unset;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center;
     border: none;
     font-size: 20px;
     background-color: white  !important;
