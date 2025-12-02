@@ -87,7 +87,9 @@
     overflow: hidden;
     height: 100%;
 }
-
+.about-us-img{
+    object-fit: cover;
+}
 .collection-info{
     position: absolute;
     display: flex;
