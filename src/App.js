@@ -12,22 +12,22 @@ import { useEffect } from 'react';
 function App() {
   
 
-    useEffect(() => {
-  const sections = document.querySelectorAll("[data-section]");
+//     useEffect(() => {
+//   const sections = document.querySelectorAll("[data-section]");
 
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        console.log("VIDLJIVO:", entry.target.classList);
-        entry.target.classList.add("show")
-      }
-    });
-  }, { threshold: 0.1 });
+//   const observer = new IntersectionObserver((entries) => {
+//     entries.forEach(entry => {
+//       if (entry.isIntersecting) {
+//         console.log("VIDLJIVO:", entry.target.classList);
+//         entry.target.classList.add("show")
+//       }
+//     });
+//   }, { threshold: 0.1 });
 
-  sections.forEach(section => observer.observe(section));
+//   sections.forEach(section => observer.observe(section));
 
-  return () => observer.disconnect();
-}, []); 
+//   return () => observer.disconnect();
+// }, []); 
 
   return (
     <div>

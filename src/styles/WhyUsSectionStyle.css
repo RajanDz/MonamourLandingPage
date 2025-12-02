@@ -6,14 +6,8 @@
     height: 100vh;
     padding: 48px;
     gap: 50px;
-    opacity: 0;
-    transform: translateY(50px);
-    transition: opacity 0.2s ease-in-out, transform 0.8s ease-in-out;
 }
-.why-to-choose-us-section.show{
-    transform: translateY(0);
-    opacity: 1;
-}
+
 .why-to-choose-us-header{
     display: flex;
     flex-direction: column;
