@@ -9,12 +9,15 @@
     overflow: hidden;
 }
 
-.video-bg {
+.video-desktop {
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
+.video-mobile{
+    display: none;
+}
 .vignette {
     position: absolute;
     inset: 0;
@@ -63,4 +66,17 @@
 .video-wrapper-content button:hover{
     background-color: rgb(243, 242, 242);
     cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+        .video-desktop{
+            display: none;
+        }
+        .video-mobile{
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: contain     ;
+        }
 }

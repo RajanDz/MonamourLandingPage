@@ -1,6 +1,6 @@
 import "../styles/videoStyle.css";
-import video from "../assets/videos/heroSectionVideo.mp4";
-
+import video from "../assets/videos/reklamaMonamour.mp4";
+import mobileVideo from "../assets/videos/reklamaMonamourTelefon.mp4";
 export function VideoComponent() {
     return (
         <div className="video-wrapper">
@@ -9,11 +9,19 @@ export function VideoComponent() {
                 loop
                 muted
                 playsInline
-                className="video-bg"
+                className="video-desktop"
             >
                 <source src={video} type="video/mp4" />
             </video>
-
+            <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="video-mobile"
+            >
+                <source src={mobileVideo} type="video/mp4" />
+            </video>
             {/* VIGNETTE OVERLAY */}
             <div className="vignette"></div>
             <div className="video-wrapper-content">
