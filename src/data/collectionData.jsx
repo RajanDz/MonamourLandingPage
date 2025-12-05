@@ -88,10 +88,11 @@ image: postEightPhoto,    likes: 445,
 ];
 
 export const reasonsToChooseUs = [
-    {name: "Kurirane kolekcije", description: "Pažljivo odabrani komadi od vodećih svetskih brendova i dizajnera", icon: "hotel_class"},
-    {name: "Personalizovana Usluga", description: "Naš tim je tu da vam pomogne da pronađete savršen komad za vašu priliku", icon:"favorite"},
-    {name: "Garancija Kvaliteta", description: "Sve naše proizvode garantujemo i nudimo jednostavnu razmenu", icon: "verified_user"},
-    {name: "Brza Dostava", description: "Besplatna dostava za sve porudžbine preko određenog iznosa", icon:"local_shipping"}
+    {name: "Jedinstven izbor", description: "Naše komade možete pronaći i isprobati isključivo u Mon amour butiku u Podgorici."
+, icon: "hotel_class"},
+    {name: "Samo jedan komad", description: "Prilikom odabira nekog od nasih komada, nemate brigu da će još neko nositi istu haljinu kao i Vi. Haljine se ne ponavljaju, već od svakog modela imamo samo jednu.", icon:"favorite"},
+    {name: "Mogućnost dostave", description: "U saradnji sa kurirskom službom, sve naše haljine možete poručiti putem instagrama, i dobiti je u roku od 48h.", icon: "verified_user"},
+    {name: "Naša usluga ", description: "Bilo da nas posjetite ili nam pišete online, tu smo da pomognemo da se odlučite za savršen model za Vas. Ako želite snimke uživo, ili naše mišljenje - spremni smo da pomognemo.", icon:"local_shipping"}
 ]
 
 

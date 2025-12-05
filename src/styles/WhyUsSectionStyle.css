@@ -40,6 +40,8 @@
     gap: 20px;
     transition: transform 0.3s ease-in-out, border 0.3s ease-in-out;
     cursor: pointer;
+        overflow: hidden;
+
 }
 .reason:hover{
     transform: scale(1.1);

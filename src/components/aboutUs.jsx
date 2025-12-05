@@ -13,11 +13,13 @@ export function AboutUsComponent(){
                     </div>
 
                     <div className="about-us-text">
-                        <p className="about-us-info" >Monamour je butik koji spaja eleganciju, stil i strast za modom. Osnovani sa vizijom da pružimo jedinstveno iskustvo kupovine, biramo svaki komad sa posebnom pažnjom kako bismo našim klijentima ponudili najbolje iz sveta mode.</p>
+                        <p className="about-us-info" >Od ljeta 2021. godine, ušli smo u svijet prodaje i vrlo brzo postali stranica prepoznatljiva po neobičnim i unikatnim haljinama. 
+Godinama smo dobijali vaše povjerenje i potvrdu da je vrijeme za sljedeći korak.</p>
 
-                        <p className="about-us-info" >Naša kolekcija obuhvata pažljivo odabrane komade od svetski priznatih brendova i talentovanih dizajnera. Verujemo da moda treba da bude dostupna svima koji žele da izraze svoju individualnost i samopouzdanje.</p>
+                        <p className="about-us-info" >U aprilu 2025. otvorili smo vrata našeg butika u Podgorici, gdje smo nastavili da za vas biramo posebne i pažljivo odabrane komade.</p>
 
-                        <p className="about-us-info" >Posetite nas i otkrijte svet u kojem je svaki detalj savršen, a svaki komad priča svoju priču.</p>
+                        <p className="about-us-info" >Danas u našem butiku nudimo širok asortiman haljina za specijalne prilike, u vrlo ograničenim količinama i bez ponavljanja kolekcija. 
+U prijatnom ambijentu zajedno tražimo savršen izbor — haljinu koja ostavlja poseban utisak.</p>
 
                         <div className="client-info">
                             <div className="years-of-work">
@@ -25,7 +27,7 @@ export function AboutUsComponent(){
                                 <p style={{color: "gray",fontSize: "15px"}}>GODINA ISKUSTVA</p>
                             </div>
                             <div className="satisfied-customers">
-                                <p style={{color:"oklch(0.64 0.24 354.76)", fontSize: "40px"}}>1000+</p>
+                                <p style={{color:"oklch(0.64 0.24 354.76)", fontSize: "40px"}}>10000+</p>
                                 <p style={{color: "gray",fontSize: "15px"}}>ZADOVOLJNIH KLIJENATA</p>
                             </div>
                         </div>

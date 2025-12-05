@@ -4,7 +4,7 @@ export function LocationComponent(){
     return (
         <div id="location" className="location-section" data-section>
             <div className="loc-section-header">
-                    <p style={{color: "oklch(.656 .241 354.308)", fontSize: "24px", letterSpacing: "3px"}}>LOKACIJA</p>
+                    <p style={{color: "oklch(.656 .241 354.308)", fontSize: "54px", letterSpacing: "3px"}}>LOKACIJA</p>
                     <p style={{color: "white", fontSize: "20px"}}>POSJETITE NAS</p>
             </div>
             <div className="location-info">
@@ -43,7 +43,7 @@ export function LocationComponent(){
                         </span>
                         <div className="info-details">
                             <p className="info-title">Telefon</p>
-                            <p className="info-desc">068 720 706 </p>
+                            <p className="info-desc">/ </p>
                         </div>
                         </div>
                         <div className="info">

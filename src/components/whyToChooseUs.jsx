@@ -10,7 +10,6 @@ export function WhyMonamourComponent() {
             <div className="why-to-choose-us-section" data-section>
                 <div className="why-to-choose-us-header">
                     <p className="header-title" >ZAŠTO MONAMOUR</p>
-                    <p style={{color: "white", fontSize: "25px"}}>Vaše iskustvo je naš prioritet</p>
                 </div>
                 <div className="reasons">
                     {reasonsToChooseUs.map((item) => (
@@ -19,7 +18,7 @@ export function WhyMonamourComponent() {
                                 {item.icon}
                             </span>
                             <h4 style={{ color: "white" }}>{item.name}</h4>
-                            <p style={{ color: "white" }}>{item.description}</p>
+                            <p style={{ color: "white", fontSize: "15px" }}>{item.description}</p>
                         </div>
                     ))}
                 </div>
