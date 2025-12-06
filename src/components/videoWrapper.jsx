@@ -27,7 +27,7 @@ export function VideoComponent() {
             <div className="video-wrapper-content">
                     <h3>MONAMOUR</h3>
                     <p>Gde elegancija sreće strast</p>
-                    <button>ISTRAZI KOLEKCIJU</button>
+                    <button onClick={() => document.getElementById("collection")?.scrollIntoView({behavior: "smooth"})}>ISTRAZI KOLEKCIJU</button>
             </div>
         </div>
     );

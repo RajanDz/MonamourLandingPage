@@ -1,6 +1,6 @@
 import "../styles/aboutUsStyle.css";
-import aboutUsOne from "../assets/image/about-us-one.avif";
-import aboutUsTwo from "../assets/image/about-us-two.avif";
+import aboutUsOne from "../assets/image/about-us-one.jpg";
+import aboutUsTwo from "../assets/image/about-us-two.jpg";
 
 export function AboutUsComponent(){
     return(
