@@ -9,7 +9,7 @@ export function OurCollectionComponent(){
                 <div className="collection-content">
                     <div className="collection-sec-header"> 
                             <p style={{color:"oklch(0.64 0.24 354.76)", width: "max-content", letterSpacing: "4px"}}>INSTAGRAM</p>
-                            <p style={{color: "white" , fontSize: "30px"}}>Pratite nas na Instagramu</p>
+                            <p style={{color: "white" }}>Pratite nas na Instagramu</p>
                             <p style={{color: "white"}}>Budite uvijek u toku sa novitetima</p>
                             <button className="instagram-btn" onClick={() => window.open("https://www.instagram.com/monamour_mne?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D")}>
                                 @monamour_mne
