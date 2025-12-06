@@ -1,6 +1,6 @@
 import "../styles/videoStyle.css";
 import video from "../assets/videos/monamourDesktopReklama.mp4";
-import mobileVideo from "../assets/videos/reklamaMonamourTelefon.mov"
+import mobileVideo from "../assets/videos/reklamaMonamourTelefon.mp4"
 export function VideoComponent() {
     return (
         <div className="video-wrapper">

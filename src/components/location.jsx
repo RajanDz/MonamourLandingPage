@@ -24,7 +24,7 @@ export function LocationComponent(){
                         </span>
                         <div className="info-details">
                             <p className="info-title">Adresa</p>
-                            <p className="info-desc">Branka Delatica BB</p>
+                            <p className="info-desc">Podgorica,<br /> New City Kips kvart, <br />Branka Deletica bb</p>
                         </div>
                         </div>
                         <div className="info">

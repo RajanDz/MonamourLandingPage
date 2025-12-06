@@ -9,7 +9,6 @@ export function AboutUsComponent(){
                 <div className="left-side"> 
                     <div className="about-us-sec-header">
                         <h3 style={{color:"oklch(0.64 0.24 354.76)", width: "max-content", letterSpacing: "4px"}}>O NAMA</h3>
-                        <p style={{color: "white"}}>Vaša destinacija za luksuznu modu</p>
                     </div>
 
                     <div className="about-us-text">
