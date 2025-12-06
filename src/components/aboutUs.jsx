@@ -23,11 +23,11 @@ U prijatnom ambijentu zajedno tražimo savršen izbor — haljinu koja ostavlja 
 
                         <div className="client-info">
                             <div className="years-of-work">
-                                <p style={{color:"oklch(0.64 0.24 354.76)",fontSize: "40px"}}>4+</p>
+                                <p className="brand-number">4+</p>
                                 <p style={{color: "gray",fontSize: "15px"}}>GODINA ISKUSTVA</p>
                             </div>
                             <div className="satisfied-customers">
-                                <p style={{color:"oklch(0.64 0.24 354.76)", fontSize: "40px"}}>10000+</p>
+                                <p className="brand-number">10000+</p>
                                 <p style={{color: "gray",fontSize: "15px"}}>ZADOVOLJNIH KLIJENATA</p>
                             </div>
                         </div>

@@ -48,6 +48,8 @@
 }
 .client-info{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     gap: 50px;
 }
 
@@ -56,7 +58,10 @@
     flex-direction: column;
     align-items: flex-start;
 }
-
+.years-of-work p ,.satisfied-customers p{
+    color: oklch(0.64 0.24 354.76);
+    font-size: 48px;
+}
 .right-side{
     display: flex;
     align-items: center;
@@ -95,6 +100,9 @@
             justify-content: center;
             width: 250px;
             overflow: hidden;
+        }
+        .years-of-work p ,.satisfied-customers p{
+            font-size: 28px;
         }
         .about-us-info{
             width: 250px;
