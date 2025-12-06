@@ -25,12 +25,10 @@ export function OurCollectionComponent(){
                                 <div className="post-info">
                                     <div className="likes">
                                         <span>❤︎</span>
-                                        <p>{item.likes}</p>
                                     </div>
 
                                     <div className="comments">
                                         <span>💬</span>
-                                        <p>{item.comments}</p>
                                     </div>
                                 </div>
                                 <div className="vignette"></div>
