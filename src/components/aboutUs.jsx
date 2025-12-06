@@ -14,11 +14,11 @@ export function AboutUsComponent(){
 
                     <div className="about-us-text">
                         <p className="about-us-info" >Od ljeta 2021. godine, ušli smo u svijet prodaje i vrlo brzo postali stranica prepoznatljiva po neobičnim i unikatnim haljinama. 
-Godinama smo dobijali vaše povjerenje i potvrdu da je vrijeme za sljedeći korak.</p>
+ <br />Godinama smo dobijali vaše povjerenje i potvrdu da je vrijeme za sljedeći korak.</p>
 
-                        <p className="about-us-info" >U aprilu 2025. otvorili smo vrata našeg butika u Podgorici, gdje smo nastavili da za vas biramo posebne i pažljivo odabrane komade.</p>
+                        <p className="about-us-info" >U aprilu 2025. otvorili smo vrata našeg butika u Podgorici,<br /> gdje smo nastavili da za vas biramo posebne i pažljivo odabrane komade.</p>
 
-                        <p className="about-us-info" >Danas u našem butiku nudimo širok asortiman haljina za specijalne prilike, u vrlo ograničenim količinama i bez ponavljanja kolekcija. 
+                        <p className="about-us-info" >Danas u našem butiku nudimo širok asortiman haljina za specijalne prilike,<br /> u vrlo ograničenim količinama i bez ponavljanja kolekcija. 
 U prijatnom ambijentu zajedno tražimo savršen izbor — haljinu koja ostavlja poseban utisak.</p>
 
                         <div className="client-info">

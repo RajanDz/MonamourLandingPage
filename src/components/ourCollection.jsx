@@ -10,7 +10,7 @@ export function OurCollectionComponent(){
                     <div className="collection-sec-header"> 
                             <p style={{color:"oklch(0.64 0.24 354.76)", width: "max-content", letterSpacing: "4px"}}>INSTAGRAM</p>
                             <p style={{color: "white" , fontSize: "30px"}}>Pratite nas na Instagramu</p>
-                            <p style={{color: "white"}}>Svakodnevna inspiracija, novi proizvodi i ekskluzivni pogledi iza kulisa</p>
+                            <p style={{color: "white"}}>Budite uvijek u toku sa novitetima</p>
                             <button className="instagram-btn" onClick={() => window.open("https://www.instagram.com/monamour_mne?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D")}>
                                 @monamour_mne
                                 <span className="arrow">→</span>
@@ -45,7 +45,7 @@ export function OurCollectionComponent(){
                             </div>
                         ))}
                     </div>
-                    <p style={{color: "white", fontSize: "20px" ,fontWeight: "500"}}>Tagujte nas <span style={{color:"rgba(252, 5, 231, 1)"}}>@monamour_mne</span> i podijelite Vase utiske i slike sa nama!</p>
+                    <p style={{color: "white", fontSize: "20px" ,fontWeight: "500"}}>Tagujte nas <span style={{color:"rgba(252, 5, 231, 1)"}}>@monamour_mne</span> i podijelite Vaše utiske i slike sa nama!</p>
                 </div>
         </div>
     )

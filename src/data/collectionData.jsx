@@ -2,10 +2,8 @@ import postOnePhoto from "../assets/image/postOne.jpg"
 import postTwoPhoto from "../assets/image/postTwo.jpg"
 import postThreePhoto from "../assets/image/postThree.jpg"
 import postFourPhoto from "../assets/image/postFour.jpg"
-import postFivePhoto from "../assets/image/postFIve.jpg"
+import postFivePhoto from "../assets/image/postFive.jpg"
 import postSixPhoto from "../assets/image/postSix.jpg"
-import postSevenPhoto from "../assets/image/postSeven.jpg"
-import postEightPhoto from "../assets/image/postEight.jpg"
 export function InstagramIcon(props) {
   return (
     <svg 
@@ -73,24 +71,14 @@ image: postSixPhoto,    likes: 521,
     comments: 38,
     url:"https://www.instagram.com/monamour_mne?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
   },
-  {
-    id: 7,
-image: postSevenPhoto,    likes: 612,
-    comments: 45
-  },
-  {
-    id: 8,
-image: postEightPhoto,    likes: 445,
-    comments: 29,
-        url:"https://www.instagram.com/monamour_mne?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
-
-  }
+  
 ];
 
 export const reasonsToChooseUs = [
     {name: "Jedinstven izbor", description: "Naše komade možete pronaći i isprobati isključivo u Mon amour butiku u Podgorici."
 , icon: "hotel_class"},
-    {name: "Samo jedan komad", description: "Prilikom odabira nekog od nasih komada, nemate brigu da će još neko nositi istu haljinu kao i Vi. Haljine se ne ponavljaju, već od svakog modela imamo samo jednu.", icon:"favorite"},
+    {name: "Samo jedan komad", description: `Prilikom odabira nekog od nasih komada, nemate brigu da će još neko nositi istu haljinu kao i Vi. Haljine se ne ponavljaju, 
+       već od svakog modela imamo samo jednu.`, icon:"favorite"},
     {name: "Mogućnost dostave", description: "U saradnji sa kurirskom službom, sve naše haljine možete poručiti putem instagrama, i dobiti je u roku od 48h.", icon: "verified_user"},
     {name: "Naša usluga ", description: "Bilo da nas posjetite ili nam pišete online, tu smo da pomognemo da se odlučite za savršen model za Vas. Ako želite snimke uživo, ili naše mišljenje - spremni smo da pomognemo.", icon:"local_shipping"}
 ]

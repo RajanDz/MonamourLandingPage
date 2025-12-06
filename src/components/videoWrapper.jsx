@@ -1,6 +1,6 @@
 import "../styles/videoStyle.css";
-import video from "../assets/videos/reklamaMonamour.mp4";
-import mobileVideo from "../assets/videos/reklamaMonamourTelefon.mp4";
+import video from "../assets/videos/monamourDesktopReklama.mp4";
+import mobileVideo from "../assets/videos/reklamaMonamourTelefon.mov"
 export function VideoComponent() {
     return (
         <div className="video-wrapper">
@@ -26,8 +26,7 @@ export function VideoComponent() {
             <div className="vignette"></div>
             <div className="video-wrapper-content">
                     <h3>MONAMOUR</h3>
-                    <p>Gde elegancija sreće strast</p>
-                    <button onClick={() => document.getElementById("collection")?.scrollIntoView({behavior: "smooth"})}>ISTRAZI KOLEKCIJU</button>
+                    <button onClick={() => document.getElementById("collection")?.scrollIntoView({behavior: "smooth"})}>ISTRAŽI KOLEKCIJU</button>
             </div>
         </div>
     );

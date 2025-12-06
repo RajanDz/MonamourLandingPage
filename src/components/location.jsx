@@ -33,8 +33,10 @@ export function LocationComponent(){
                         </span>
                         <div className="info-details">
                             <p className="info-title">Radno vrijeme</p>
-                            <p className="info-desc">Utorak - Subota: 16:00 - 20:00</p>
-                            <p className="info-desc">Nedeljom i Ponedeljkom ne radimo</p>
+                            <p className="info-desc">Utorak - Subota</p>
+                            <p className="info-desc">16:00 - 20:00</p>
+                            <p className="info-desc">Nedeljom i ponedeljkom</p>
+                            <p className="info-desc">ne radimo</p>
                         </div>
                         </div>
                         <div className="info">
@@ -43,7 +45,7 @@ export function LocationComponent(){
                         </span>
                         <div className="info-details">
                             <p className="info-title">Telefon</p>
-                            <p className="info-desc">/ </p>
+                            <p className="info-desc">Uskoro </p>
                         </div>
                         </div>
                         <div className="info">
