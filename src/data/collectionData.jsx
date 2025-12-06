@@ -33,7 +33,7 @@ export const instagramPosts = [
     image: postOnePhoto,
     likes: 342,
     comments: 28,
-        url:"https://www.instagram.com/monamour_mne?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
+        url:"https://www.instagram.com/p/DR4RrxvDAy9/?igsh=MXUwaGF2dXllbDdrdw%3D%3D"
 
   },
   {
@@ -41,35 +41,35 @@ export const instagramPosts = [
     image: postTwoPhoto,
     likes: 489,
     comments: 35,
-        url:"https://www.instagram.com/monamour_mne?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
+        url:"https://www.instagram.com/p/DR4RJiXjDXb/?igsh=Mmg0MWYzaTRxd3ht"
 
   },
   {
     id: 3,
 image: postThreePhoto,    likes: 567,
     comments: 42,
-        url:"https://www.instagram.com/monamour_mne?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
+        url:"https://www.instagram.com/p/DR2_3fpjBzz/?igsh=d3ZuZDV5ajQzYmlq"
 
   },
   {
     id: 4,
 image: postFourPhoto,    likes: 423,
     comments: 31,
-        url:"https://www.instagram.com/monamour_mne?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
+        url:"https://www.instagram.com/p/DRzkUFcjEaT/?igsh=MXV5dnN0ajZkdDFqaA%3D%3D"
 
   },
   {
     id: 5,
 image: postFivePhoto,    likes: 398,
     comments: 24,
-        url:"https://www.instagram.com/monamour_mne?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
+        url:"https://www.instagram.com/p/DQ9tH0CjDV2/?igsh=ejdibTJxcWdlcG1x"
 
   },
   {
     id: 6,
 image: postSixPhoto,    likes: 521,
     comments: 38,
-    url:"https://www.instagram.com/monamour_mne?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
+    url:"https://www.instagram.com/p/DQ_n4jrDCLO/?igsh=dTI1em1rYmc1ZTFq"
   },
   
 ];
